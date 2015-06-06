@@ -44,10 +44,17 @@
 ```
 * and add the textView in your project.
 * Then, you can have a customEmoticonKeyboard.
+* If you want to add more Emoticons, you can do as the following Pictures.
 * 然后,将这个textView添加到项目中.
 * 你就可以拥有一个能够支持图文混排的textView和自定义的表情键盘了.
 * 另外,如果你想要自己添加其他的表情组进去的话,
 * 你可以按照Emoticons.boundle中的其他已经存在的表情文件夹中的info.plist中的格式,添加相应的plist文件.
+* ![image](https://github.com/SarielTang/SRKeyboard/blob/master/ScreenShot/shot2.png)
+* ![image](https://github.com/SarielTang/SRKeyboard/blob/master/ScreenShot/shot3.png)
+* ![image](https://github.com/SarielTang/SRKeyboard/blob/master/ScreenShot/shot4.png)
 * 然后再在emoticons.plist中,添加这个表情组的相应内容,即可.
+* ![image](https://github.com/SarielTang/SRKeyboard/blob/master/ScreenShot/shot1.png)
+
 ##Screenshot
+
 ![image](https://github.com/SarielTang/SRKeyboard/blob/master/ScreenShot/SRKeyboardIntroduce1.gif)
