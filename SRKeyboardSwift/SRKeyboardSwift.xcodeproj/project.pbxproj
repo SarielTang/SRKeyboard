@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767B27EE1B22DEAD00605193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B27ED1B22DEAD00605193 /* AppDelegate.swift */; };
+		767B27F01B22DEAD00605193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B27EF1B22DEAD00605193 /* ViewController.swift */; };
+		767B27F31B22DEAD00605193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767B27F11B22DEAD00605193 /* Main.storyboard */; };
+		767B27F51B22DEAD00605193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767B27F41B22DEAD00605193 /* Images.xcassets */; };
+		767B27F81B22DEAD00605193 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767B27F61B22DEAD00605193 /* LaunchScreen.xib */; };
+		767B28041B22DEAD00605193 /* SRKeyboardSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B28031B22DEAD00605193 /* SRKeyboardSwiftTests.swift */; };
+		767B28151B22DF1E00605193 /* EmoticonKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B280E1B22DF1E00605193 /* EmoticonKeyboardViewController.swift */; };
+		767B28161B22DF1E00605193 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 767B280F1B22DF1E00605193 /* Emoticons.bundle */; };
+		767B28171B22DF1E00605193 /* Emoticons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B28101B22DF1E00605193 /* Emoticons.swift */; };
+		767B28181B22DF1E00605193 /* EmoticonsAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B28111B22DF1E00605193 /* EmoticonsAttachment.swift */; };
+		767B28191B22DF1E00605193 /* EmoticonsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B28121B22DF1E00605193 /* EmoticonsGroup.swift */; };
+		767B281A1B22DF1E00605193 /* EmoticonsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B28131B22DF1E00605193 /* EmoticonsTextField.swift */; };
+		767B281B1B22DF1E00605193 /* EmoticonsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B28141B22DF1E00605193 /* EmoticonsTextView.swift */; };
+		767B28201B22E06600605193 /* compose_emotion_delete_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 767B281C1B22E06600605193 /* compose_emotion_delete_highlighted@2x.png */; };
+		767B28211B22E06600605193 /* compose_emotion_delete_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 767B281D1B22E06600605193 /* compose_emotion_delete_highlighted@3x.png */; };
+		767B28221B22E06600605193 /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 767B281E1B22E06600605193 /* compose_emotion_delete@2x.png */; };
+		767B28231B22E06600605193 /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 767B281F1B22E06600605193 /* compose_emotion_delete@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		767B27FE1B22DEAD00605193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767B27E01B22DEAD00605193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767B27E71B22DEAD00605193;
+			remoteInfo = SRKeyboardSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		767B27E81B22DEAD00605193 /* SRKeyboardSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRKeyboardSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767B27EC1B22DEAD00605193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767B27ED1B22DEAD00605193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		767B27EF1B22DEAD00605193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		767B27F21B22DEAD00605193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		767B27F41B22DEAD00605193 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		767B27F71B22DEAD00605193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		767B27FD1B22DEAD00605193 /* SRKeyboardSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRKeyboardSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		767B28021B22DEAD00605193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767B28031B22DEAD00605193 /* SRKeyboardSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRKeyboardSwiftTests.swift; sourceTree = "<group>"; };
+		767B280E1B22DF1E00605193 /* EmoticonKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonKeyboardViewController.swift; sourceTree = "<group>"; };
+		767B280F1B22DF1E00605193 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		767B28101B22DF1E00605193 /* Emoticons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoticons.swift; sourceTree = "<group>"; };
+		767B28111B22DF1E00605193 /* EmoticonsAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonsAttachment.swift; sourceTree = "<group>"; };
+		767B28121B22DF1E00605193 /* EmoticonsGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonsGroup.swift; sourceTree = "<group>"; };
+		767B28131B22DF1E00605193 /* EmoticonsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonsTextField.swift; sourceTree = "<group>"; };
+		767B28141B22DF1E00605193 /* EmoticonsTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonsTextView.swift; sourceTree = "<group>"; };
+		767B281C1B22E06600605193 /* compose_emotion_delete_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@2x.png"; sourceTree = "<group>"; };
+		767B281D1B22E06600605193 /* compose_emotion_delete_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@3x.png"; sourceTree = "<group>"; };
+		767B281E1B22E06600605193 /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		767B281F1B22E06600605193 /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767B27E51B22DEAD00605193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767B27FA1B22DEAD00605193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767B27DF1B22DEAD00605193 = {
+			isa = PBXGroup;
+			children = (
+				767B27EA1B22DEAD00605193 /* SRKeyboardSwift */,
+				767B28001B22DEAD00605193 /* SRKeyboardSwiftTests */,
+				767B27E91B22DEAD00605193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		767B27E91B22DEAD00605193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767B27E81B22DEAD00605193 /* SRKeyboardSwift.app */,
+				767B27FD1B22DEAD00605193 /* SRKeyboardSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767B27EA1B22DEAD00605193 /* SRKeyboardSwift */ = {
+			isa = PBXGroup;
+			children = (
+				767B280D1B22DF1E00605193 /* Emoticons */,
+				767B27ED1B22DEAD00605193 /* AppDelegate.swift */,
+				767B27EF1B22DEAD00605193 /* ViewController.swift */,
+				767B27F11B22DEAD00605193 /* Main.storyboard */,
+				767B27F41B22DEAD00605193 /* Images.xcassets */,
+				767B27F61B22DEAD00605193 /* LaunchScreen.xib */,
+				767B27EB1B22DEAD00605193 /* Supporting Files */,
+			);
+			path = SRKeyboardSwift;
+			sourceTree = "<group>";
+		};
+		767B27EB1B22DEAD00605193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767B281C1B22E06600605193 /* compose_emotion_delete_highlighted@2x.png */,
+				767B281D1B22E06600605193 /* compose_emotion_delete_highlighted@3x.png */,
+				767B281E1B22E06600605193 /* compose_emotion_delete@2x.png */,
+				767B281F1B22E06600605193 /* compose_emotion_delete@3x.png */,
+				767B27EC1B22DEAD00605193 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767B28001B22DEAD00605193 /* SRKeyboardSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				767B28031B22DEAD00605193 /* SRKeyboardSwiftTests.swift */,
+				767B28011B22DEAD00605193 /* Supporting Files */,
+			);
+			path = SRKeyboardSwiftTests;
+			sourceTree = "<group>";
+		};
+		767B28011B22DEAD00605193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767B28021B22DEAD00605193 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767B280D1B22DF1E00605193 /* Emoticons */ = {
+			isa = PBXGroup;
+			children = (
+				767B280E1B22DF1E00605193 /* EmoticonKeyboardViewController.swift */,
+				767B280F1B22DF1E00605193 /* Emoticons.bundle */,
+				767B28101B22DF1E00605193 /* Emoticons.swift */,
+				767B28111B22DF1E00605193 /* EmoticonsAttachment.swift */,
+				767B28121B22DF1E00605193 /* EmoticonsGroup.swift */,
+				767B28131B22DF1E00605193 /* EmoticonsTextField.swift */,
+				767B28141B22DF1E00605193 /* EmoticonsTextView.swift */,
+			);
+			path = Emoticons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767B27E71B22DEAD00605193 /* SRKeyboardSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767B28071B22DEAD00605193 /* Build configuration list for PBXNativeTarget "SRKeyboardSwift" */;
+			buildPhases = (
+				767B27E41B22DEAD00605193 /* Sources */,
+				767B27E51B22DEAD00605193 /* Frameworks */,
+				767B27E61B22DEAD00605193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRKeyboardSwift;
+			productName = SRKeyboardSwift;
+			productReference = 767B27E81B22DEAD00605193 /* SRKeyboardSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		767B27FC1B22DEAD00605193 /* SRKeyboardSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767B280A1B22DEAD00605193 /* Build configuration list for PBXNativeTarget "SRKeyboardSwiftTests" */;
+			buildPhases = (
+				767B27F91B22DEAD00605193 /* Sources */,
+				767B27FA1B22DEAD00605193 /* Frameworks */,
+				767B27FB1B22DEAD00605193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767B27FF1B22DEAD00605193 /* PBXTargetDependency */,
+			);
+			name = SRKeyboardSwiftTests;
+			productName = SRKeyboardSwiftTests;
+			productReference = 767B27FD1B22DEAD00605193 /* SRKeyboardSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767B27E01B22DEAD00605193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Sariel;
+				TargetAttributes = {
+					767B27E71B22DEAD00605193 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					767B27FC1B22DEAD00605193 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 767B27E71B22DEAD00605193;
+					};
+				};
+			};
+			buildConfigurationList = 767B27E31B22DEAD00605193 /* Build configuration list for PBXProject "SRKeyboardSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 767B27DF1B22DEAD00605193;
+			productRefGroup = 767B27E91B22DEAD00605193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767B27E71B22DEAD00605193 /* SRKeyboardSwift */,
+				767B27FC1B22DEAD00605193 /* SRKeyboardSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767B27E61B22DEAD00605193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B27F31B22DEAD00605193 /* Main.storyboard in Resources */,
+				767B28211B22E06600605193 /* compose_emotion_delete_highlighted@3x.png in Resources */,
+				767B28161B22DF1E00605193 /* Emoticons.bundle in Resources */,
+				767B27F81B22DEAD00605193 /* LaunchScreen.xib in Resources */,
+				767B28201B22E06600605193 /* compose_emotion_delete_highlighted@2x.png in Resources */,
+				767B28231B22E06600605193 /* compose_emotion_delete@3x.png in Resources */,
+				767B28221B22E06600605193 /* compose_emotion_delete@2x.png in Resources */,
+				767B27F51B22DEAD00605193 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767B27FB1B22DEAD00605193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767B27E41B22DEAD00605193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B27F01B22DEAD00605193 /* ViewController.swift in Sources */,
+				767B28191B22DF1E00605193 /* EmoticonsGroup.swift in Sources */,
+				767B27EE1B22DEAD00605193 /* AppDelegate.swift in Sources */,
+				767B281B1B22DF1E00605193 /* EmoticonsTextView.swift in Sources */,
+				767B28181B22DF1E00605193 /* EmoticonsAttachment.swift in Sources */,
+				767B281A1B22DF1E00605193 /* EmoticonsTextField.swift in Sources */,
+				767B28151B22DF1E00605193 /* EmoticonKeyboardViewController.swift in Sources */,
+				767B28171B22DF1E00605193 /* Emoticons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767B27F91B22DEAD00605193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B28041B22DEAD00605193 /* SRKeyboardSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		767B27FF1B22DEAD00605193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767B27E71B22DEAD00605193 /* SRKeyboardSwift */;
+			targetProxy = 767B27FE1B22DEAD00605193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		767B27F11B22DEAD00605193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767B27F21B22DEAD00605193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		767B27F61B22DEAD00605193 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767B27F71B22DEAD00605193 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767B28051B22DEAD00605193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		767B28061B22DEAD00605193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767B28081B22DEAD00605193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRKeyboardSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		767B28091B22DEAD00605193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRKeyboardSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		767B280B1B22DEAD00605193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SRKeyboardSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRKeyboardSwift.app/SRKeyboardSwift";
+			};
+			name = Debug;
+		};
+		767B280C1B22DEAD00605193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SRKeyboardSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRKeyboardSwift.app/SRKeyboardSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767B27E31B22DEAD00605193 /* Build configuration list for PBXProject "SRKeyboardSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767B28051B22DEAD00605193 /* Debug */,
+				767B28061B22DEAD00605193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767B28071B22DEAD00605193 /* Build configuration list for PBXNativeTarget "SRKeyboardSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767B28081B22DEAD00605193 /* Debug */,
+				767B28091B22DEAD00605193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		767B280A1B22DEAD00605193 /* Build configuration list for PBXNativeTarget "SRKeyboardSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767B280B1B22DEAD00605193 /* Debug */,
+				767B280C1B22DEAD00605193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767B27E01B22DEAD00605193 /* Project object */;
+}

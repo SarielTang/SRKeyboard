@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SRKeyboardSwift/SRKeyboardSwift.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SRKeyboard/SRKeyboard.xcodeproj">
    </FileRef>
    <FileRef
